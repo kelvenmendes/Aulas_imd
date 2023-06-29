@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Material Didático - IMD - Página não encontrada</title>
+            
+    <link rel="icon" type="image/png" sizes="96x96" href="https://materiais.imd.ufrn.br/materialV2//assets/img/favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://materiais.imd.ufrn.br/materialV2//assets/css/materialize.min.css" rel="stylesheet">
+    <link href="https://materiais.imd.ufrn.br/materialV2//assets/css/style.css" rel="stylesheet">
+</head>
+    <body>
+
+        <div class="container-fluid">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 m8 offset-m2">
+                  <div class="card">
+                    <div class="card-content center-align white-text grey lighten-1">
+                        <h1>404</h1>
+                        <h3>Oops... Página não encontrada!</h3>
+                    </div>
+                    <div class="card-action center-align">
+                        <ul>
+                            <li>A página que você procura foi movida, removida, renomeada ou não existe!</li>
+                            <li>Ou pode ter ocorrido uma falha na digitação do endereço;</li>
+                            <li>Ou com sua conexão de internet;</li>
+                        </ul>
+                        <a href="#" onclick="history.go(-1); return false;" class="waves-effect blue btn" style="margin:20px">Voltar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+            
+        <script src="https://materiais.imd.ufrn.br/materialV2//assets/js/jquery-3.0.0.min.js"></script>
+        <script src="https://materiais.imd.ufrn.br/materialV2//assets/js/materialize.min.js"></script>
+        <script src="https://materiais.imd.ufrn.br/materialV2//assets/js/acessibilidade.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.slider').slider({full_width: true});
+                $( "body" ).animate({
+                    opacity: 1
+                  },
+                600);
+            });
+        </script>
+
+    </body>
+</html>
